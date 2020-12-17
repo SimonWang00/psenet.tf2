@@ -1,0 +1,3 @@
+opencv-python
+numba
+tensorflow==2.0.0
