@@ -26,7 +26,6 @@ import glob
 import cv2
 
 
-# tpath = "./20191204_113515.txt"
 jpath = "./20191204_113515.json"
 
 def list_dir(path):
@@ -199,5 +198,5 @@ def batch_json_to_txt(path):
         cv2.imwrite(pname, img)
 
 if __name__ == "__main__":
-    path = "D:\\tmp\\118_20200119"
+    path = ""
     batch_json_to_txt(path)

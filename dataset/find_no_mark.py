@@ -2,16 +2,15 @@
 # __*__ coding: utf-8 __*__
 
 '''
-@Author: simonKing
-@License: (C) Copyright 2013-2019, Best Wonder Corporation Limited.
+@Author: SimonWang00
 @Os：Windows 10 x64
-@Contact: bw_wangxiaomeng@whty.com.cn
-@Software: PY PyCharm 
-@File: find_no_mark.py
-@Time: 2020/1/6 13:31
+@Contact: simon_wang00@163.com
+@Software: PY PyCharm
+@File: settings.py
+@Time: 2020/12/15 15:15
 '''
 
-# Copyright 2019 The simonKings. All Rights Reserved.
+# Copyright 2020 The SimonWang00. All Rights Reserved.
 #
 # @Desc:
 # 1).define your function1;
@@ -112,7 +111,6 @@ def batch_find(path):
 
 if __name__ == "__main__":
     input_path = input("(#`O′)--> 请输入您labelme的标记目录：")
-    # path = r"D:\tmp\demo"
     batch_find(input_path)
     print("执行完毕！")
     print("程序退出执行")
